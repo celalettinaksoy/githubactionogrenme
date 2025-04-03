@@ -24,7 +24,7 @@ jobs:
             printenv
 
         - name: Celo
-          uses: mscoutermarsh/cowsays-action@maste
+          uses: mscoutermarsh/cowsays-action@master
           with:
             text: "Hello Celo Ne Yapıyorsun!"
             color: 'blue'
