@@ -12,10 +12,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+        - name: Checkout
+          uses: actions/checkout@v4
+          with:
+            ref: Celo
+        - name: Hello Celo
 
-    - name: DurumYaz
-      run: |
-        echo "ilk deneme workflowum"
-        printenv
+          run: |
+            ls -al
+            echo "Hello Celo"
+            printenv
+
+        - name: Celo
+          uses: mscoutermarsh/cowsays-action@maste
+          with:
+            text: "Hello Celo Ne Yapıyorsun!"
+            color: 'blue'
+            
+
