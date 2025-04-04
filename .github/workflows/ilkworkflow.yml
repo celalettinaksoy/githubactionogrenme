@@ -28,5 +28,3 @@ jobs:
           with:
             text: "Hello Celo Ne Yapıyorsun!"
             color: 'blue'
-            
-
